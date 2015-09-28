@@ -1,0 +1,124 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt]{article}
+%\input{mydef.tex}
+\usepackage{fancyhdr} % Required for custom headers
+\usepackage{lastpage} % Required to determine the last page for the footer
+\usepackage{extramarks} % Required for headers and footers
+\usepackage[usenames,dvipsnames]{color} % Required for custom colors
+\usepackage{graphicx} % Required to insert images
+\usepackage{listings} % Required for insertion of code
+\usepackage{courier} % Required for the courier font
+\usepackage{amssymb,amsmath}
+\usepackage{amsfonts}
+\usepackage{mathtools}
+\usepackage{subfigure}
+\usepackage{enumitem}
+\usepackage{bm}
+\usepackage{url}
+\usepackage[stable]{footmisc}
+\usepackage{booktabs}
+\usepackage[square]{natbib}
+\usepackage{indentfirst}
+\usepackage[colorlinks, linkcolor=red, anchorcolor=purple, citecolor=blue]{hyperref}
+\usepackage{hyperref}
+
+\usepackage{multicol}
+\setlength{\columnsep}{1cm}
+
+% Margins
+\topmargin=-0.45in
+\evensidemargin=0in
+\oddsidemargin=0in
+\textwidth=6.5in
+\textheight=9.0in
+\headsep=0.25in
+\setlength{\headheight}{13.6pt}
+\linespread{1.1} % Line spacing
+
+% Set up the header and footer
+\pagestyle{fancy}
+\lhead{CS 57800: Statistical Machine Learning} % Top left header
+\chead{}
+\rhead{Homework 2} % Top right header
+\lfoot{} % Bottom left footer
+\cfoot{} % Bottom center footer
+\rfoot{Page\ \thepage\ of\ \protect\pageref{LastPage}} % Bottom right footer
+\renewcommand\headrulewidth{0.4pt} % Size of the header rule
+\renewcommand\footrulewidth{0.4pt} % Size of the footer rule
+
+\renewcommand*{\thefootnote}{\fnsymbol{footnote}}
+
+\setlength{\parskip}{.2\baselineskip}
+%\setlength\parindent{0pt} % Removes all indentation from paragraphs
+
+\title{
+\textbf{Project Proposal} \\ \textsc{\textit{Project name}} \\
+}
+
+\author{
+	\textbf{\textit{Team members names}} \\
+	Department of Computer Science\\
+	\texttt{xxx@purdue.edu, yyy@purdue.edu, zzz@purdue.edu}
+}
+
+\date{\today}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle
+
+%\thispagestyle{empty}
+
+\section{Introduction}
+\textit{What is the project}
+
+\textit{Motivation}
+
+\section{Related work}
+\textit{Describe any previous work you found related to your project}
+
+\section{Problem formulation}
+\textit{Describe your project as a machine learning problem, identify inputs objects, labels, possible features}
+
+\section{Data and Evaluation plan}
+\textit{Describe the data you intend to use. Mention if there is an existing data source you intend to use, or if annotation is required}
+
+\textit{How will you evaluate your algorithm? What is a reasonable baseline?}
+
+
+
+\section*{Submission Instructions:} 
+\textit{delete this section when submitting}
+
+You are required to use \LaTeX \, to type your solutions to questions, and report of your programing as well. Other formats of submission will \textbf{not} be accepted. A template named ``homework.tex" is also provided for your convenience.\\
+
+After logging into data.cs.purdue.edu (physically go to the lab or use ssh remotely, you are all granted the accounts to CS data machines during this class), please follow these steps to submit your assignment:
+\begin{enumerate}
+	\item Make a directory named \textit{`your Name\_your Surname'} and copy all of your files there.
+	\item While in the upper level directory (if the files are in /homes/dan/dan\_goldwasser, go to/homes/dan), execute the following command:\\
+
+	\texttt{turnin -c cs578 -p PROPOSAL *your\_folder\_name*}
+		
+	(e.g. your prof would use: \texttt{turnin -c cs578 -p PROPOSAL dan\_goldwasser} to submit his work)\\
+		
+	Keep in mind that old submissions are overwritten with new ones whenever you execute this
+command.\\
+
+	\item You can verify the contents of your submission by executing the following command:\\
+	
+	\texttt{turnin -v -c cs578 -p PROPOSAL\\}
+
+	Do \textbf{not} forget the -v flag here, as otherwise your submission would be replaced with an empty
+one.
+\end{enumerate}
+
+%\nocite{*}
+%\bibliographystyle{plainnat}
+%\bibliography{all}
+
+\end{document}
