@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{3}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -12,5 +12,24 @@ David Liben-Nowell and Jon Kleinberg.
 \newblock ISSN 1532-2882.
 \newblock \doi{10.1002/asi.v58:7}.
 \newblock URL \url{http://dx.doi.org/10.1002/asi.v58:7}.
+
+\bibitem[Mislove et~al.()Mislove, Viswanath, Gummadi, and
+  Druschel]{mislove_you_2010}
+Alan Mislove, Bimal Viswanath, Krishna~P. Gummadi, and Peter Druschel.
+\newblock You are who you know: Inferring user profiles in online social
+  networks.
+\newblock In \emph{Proceedings of the Third {ACM} International Conference on
+  Web Search and Data Mining}, {WSDM} '10, pages 251--260. {ACM}.
+\newblock ISBN 978-1-60558-889-6.
+\newblock \doi{10.1145/1718487.1718519}.
+\newblock URL \url{http://doi.acm.org/10.1145/1718487.1718519}.
+
+\bibitem[Xie and Szymanski()]{xie_community_2011}
+Jierui Xie and B.K. Szymanski.
+\newblock Community detection using a neighborhood strength driven label
+  propagation algorithm.
+\newblock In \emph{2011 {IEEE} Network Science Workshop ({NSW})}, pages
+  188--195.
+\newblock \doi{10.1109/NSW.2011.6004645}.
 
 \end{thebibliography}
