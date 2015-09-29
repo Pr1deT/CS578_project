@@ -1,0 +1,16 @@
+\begin{thebibliography}{1}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Liben-Nowell and Kleinberg()]{liben-nowell_link-prediction_2007}
+David Liben-Nowell and Jon Kleinberg.
+\newblock The link-prediction problem for social networks.
+\newblock 58\penalty0 (7):\penalty0 1019--1031.
+\newblock ISSN 1532-2882.
+\newblock \doi{10.1002/asi.v58:7}.
+\newblock URL \url{http://dx.doi.org/10.1002/asi.v58:7}.
+
+\end{thebibliography}
