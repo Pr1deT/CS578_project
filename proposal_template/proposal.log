@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.8)  29 SEP 2015 14:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.8)  29 SEP 2015 16:10
 entering extended mode
 **proposal.tex
 (proposal.tex
@@ -551,17 +551,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
-(proposal.bbl) 
+(proposal.bbl [2]) 
 AED: lastpage setting LastPage
-[2]
+[3]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 126.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 126.
- (proposal.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
+ (proposal.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 126.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 126.
 Package rerunfilecheck Info: File `proposal.out' has not changed.
@@ -569,13 +564,13 @@ Package rerunfilecheck Info: File `proposal.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 126.
  ) 
 Here is how much of TeX's memory you used:
- 9135 strings out of 493673
- 133399 string characters out of 3141531
- 233012 words of memory out of 3000000
- 12333 multiletter control sequences out of 15000+200000
+ 9148 strings out of 493673
+ 133667 string characters out of 3141531
+ 234170 words of memory out of 3000000
+ 12343 multiletter control sequences out of 15000+200000
  17117 words of font info for 62 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 29i,11n,43p,456b,331s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,11n,43p,2003b,431s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
@@ -586,9 +581,9 @@ les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files
 MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKT
 eX 2.9/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on proposal.pdf (2 pages, 124825 bytes).
+Output written on proposal.pdf (3 pages, 133504 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
- 14 named destinations out of 1000 (max. 500000)
+ 99 PDF objects out of 1000 (max. 8388607)
+ 17 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

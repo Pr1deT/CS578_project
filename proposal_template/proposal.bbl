@@ -1,9 +1,19 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{3}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Crandall et~al.()Crandall, Backstrom, Cosley, Suri, Huttenlocher, and
+  Kleinberg]{crandall_inferring_2010}
+D.~J. Crandall, L.~Backstrom, D.~Cosley, S.~Suri, D.~Huttenlocher, and
+  J.~Kleinberg.
+\newblock Inferring social ties from geographic coincidences.
+\newblock 107:\penalty0 22436--22441.
+\newblock ISSN 0027-8424.
+\newblock \doi{10.1073/pnas.1006155107}.
+\newblock URL \url{http://adsabs.harvard.edu/abs/2010PNAS..10722436C}.
 
 \bibitem[Liben-Nowell and Kleinberg()]{liben-nowell_link-prediction_2007}
 David Liben-Nowell and Jon Kleinberg.
@@ -12,5 +22,14 @@ David Liben-Nowell and Jon Kleinberg.
 \newblock ISSN 1532-2882.
 \newblock \doi{10.1002/asi.v58:7}.
 \newblock URL \url{http://dx.doi.org/10.1002/asi.v58:7}.
+
+\bibitem[Sadilek et~al.()Sadilek, Kautz, and Bigham]{sadilek_finding_2012}
+Adam Sadilek, Henry Kautz, and Jeffrey~P. Bigham.
+\newblock Finding your friends and following them to where you are.
+\newblock In \emph{Proceedings of the Fifth {ACM} International Conference on
+  Web Search and Data Mining}, {WSDM} '12, pages 723--732. {ACM}.
+\newblock ISBN 978-1-4503-0747-5.
+\newblock \doi{10.1145/2124295.2124380}.
+\newblock URL \url{http://doi.acm.org/10.1145/2124295.2124380}.
 
 \end{thebibliography}
