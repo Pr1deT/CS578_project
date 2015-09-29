@@ -1,19 +1,13 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  29 SEP 2015 15:53
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.8)  29 SEP 2015 16:10
->>>>>>> Pr1deT/master
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.8)  29 SEP 2015 17:32
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
 **proposal.tex
-(./proposal.tex
-LaTeX2e <2014/05/01>
-Babel <3.9k> and hyphenation patterns for 78 languages loaded.
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(proposal.tex
+LaTeX2e <2015/01/01> patch level 2
+Babel <3.9m> and hyphenation patterns for 69 languages loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size11.clo"
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -27,7 +21,7 @@ File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
 \fancy@headwidth=\skip43
 \f@ncyO@elh=\skip44
 \f@ncyO@erh=\skip45
@@ -38,56 +32,56 @@ File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \f@ncyO@olf=\skip50
 \f@ncyO@orf=\skip51
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/lastpage/lastpage.sty
-Package: lastpage 2013/01/28 v1.2l Refers to last page's name (HMM; JPG)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lastpage\lastpage.sty"
+Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/fancyhdr/extramarks.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fancyhdr\extramarks.sty"
 \@temptokenb=\toks14
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2014/04/23 v1.1a Standard LaTeX Color (DPC)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 137.
+Package color Info: Driver file: pdftex.def on input line 142.
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count87
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/dvipsnam.def
-File: dvipsnam.def 2014/04/23 v3.0j Driver-dependant file (DPC,SPQR)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
+File: dvipsnam.def 2014/10/14 v3.0j Driver-dependent file (DPC,SPQR)
 ))
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 94.
 )
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.sty"
 \lst@mode=\count88
 \lst@gtempboxa=\box26
 \lst@token=\toks16
@@ -101,24 +95,24 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 \lst@lineno=\count93
 \lst@maxwidth=\dimen108
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count94
 \lst@skipnumbers=\count95
 \lst@framebox=\box27
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2014/03/04 1.5c listings configuration
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
-Package: listings 2014/03/04 1.5c (Carsten Heinz)
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/courier.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\courier.sty"
 Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amssymb.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks17
 \symAMSa=\mathgroup4
@@ -126,24 +120,24 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsmath.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip52
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amstext.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsgen.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks18
 \ex@=\dimen109
 ))
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsbsy.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen110
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsopn.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count96
@@ -184,25 +178,27 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/mh/mathtools.sty
-Package: mathtools 2014/05/21 v1.14 mathematical typesetting tools
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathtools\mathtools.sty"
+Package: mathtools 2015/06/17 v1.17 mathematical typesetting tools
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count108
 \calc@Bcount=\count109
 \calc@Adimen=\dimen118
 \calc@Bdimen=\dimen119
 \calc@Askip=\skip55
 \calc@Bskip=\skip56
-LaTeX Info: Redefining \setlength on input line 75.
-LaTeX Info: Redefining \addtolength on input line 76.
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count110
 \calc@Cskip=\skip57
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/mh/mhsetup.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathtools\mhsetup.sty"
 Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
 )
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \g_MT_multlinerow_int=\count111
@@ -215,8 +211,8 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_above_shortintertext_sep=\dimen125
 \l_MT_below_shortintertext_sep=\dimen126
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/subfigure/subfigure.sty
-Package: subfigure 2002/03/15 v2.1.5 subfigure package
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty"
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip59
 \subfigcapskip=\skip60
 \subfigcaptopadj=\dimen127
@@ -231,11 +227,11 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-(/usr/local/texlive/2014/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfigure\subfigure.cfg")
 \subfig@top=\skip63
 \subfig@bottom=\skip64
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/enumitem/enumitem.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip65
 \enit@outerparindent=\dimen129
@@ -243,19 +239,19 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@inbox=\box30
 \enitdp@description=\count116
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/bm.sty
-Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\bm.sty"
+Package: bm 2014/10/28 v1.1c Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup6
 \symboldletters=\mathgroup7
 \symboldsymbols=\mathgroup8
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 137.
-LaTeX Info: Redefining \bm on input line 203.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 207.
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/footmisc/footmisc.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\footmisc\footmisc.sty"
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
 \FN@temptoken=\toks24
 \footnotemargin=\dimen130
@@ -269,7 +265,7 @@ Package footmisc Info: Declaring symbol style lamport* on input line 903.
 Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
 .
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/booktabs/booktabs.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen131
 \lightrulewidth=\dimen132
@@ -289,26 +285,26 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count121
 \@thisrulewidth=\dimen143
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/natbib/natbib.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip66
 \bibsep=\skip67
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count122
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/indentfirst.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\indentfirst.sty"
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hyperref.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
 Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
@@ -339,7 +335,7 @@ Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
 )
 Package hobsub Info: Skipping package `hobsub' (already loaded).
 Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
-Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
 Package: xcolor-patch 2011/01/30 xcolor patch
 Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
@@ -347,25 +343,25 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-(/usr/local/texlive/2014/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/auxhook.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen144
 \Hy@linkcounter=\count123
 \Hy@pagecounter=\count124
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/pd1enc.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count125
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 4319.
@@ -398,20 +394,20 @@ LaTeX Info: Redefining \pageref on input line 6369.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hpdftex.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count131
 \c@bookmark@seq@number=\count132
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip68
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/multicol.sty
-Package: multicol 2014/04/23 v1.8e multicolumn formatting (FMi)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\multicol.sty"
+Package: multicol 2015/03/31 v1.8m multicolumn formatting (FMi)
 \c@tracingmulticols=\count133
 \mult@box=\box31
 \multicol@leftmargin=\dimen148
@@ -459,9 +455,7 @@ Package: multicol 2014/04/23 v1.8e multicolumn formatting (FMi)
 \colbreak@box=\box56
 \mc@col@check@num=\count141
 )
-(./proposal.aux)
-\openout1 = `proposal.aux'.
-
+(proposal.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
 LaTeX Font Info:    ... okay on input line 71.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
@@ -477,14 +471,10 @@ LaTeX Font Info:    ... okay on input line 71.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 71.
 LaTeX Font Info:    ... okay on input line 71.
 Package lastpage Info: Please have a look at the pageslts package at
-(lastpage)             http://www.ctan.org/tex-archive/ 
-(lastpage)             macros/latex/contrib/pageslts/ 
-(lastpage)             or
-(lastpage)             http://www.ctan.org/tex-archive/ 
-(lastpage)             install/macros/latex/contrib/pageslts.tds.zip
+(lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 71.
 
-(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count142
 \scratchdimen=\dimen157
@@ -497,29 +487,14 @@ Package lastpage Info: Please have a look at the pageslts package at
 \MPnumerator=\count146
 \makeMPintoPDFobject=\count147
 \everyMPtoPDFconversion=\toks26
-) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 )
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
 \c@lstlisting=\count148
 \AtBeginShipoutBox=\box58
 Package hyperref Info: Link coloring ON on input line 71.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count149
@@ -528,43 +503,33 @@ LaTeX Info: Redefining \ref on input line 71.
 LaTeX Info: Redefining \pageref on input line 71.
 LaTeX Info: Redefining \nameref on input line 71.
 
-(./proposal.out) (./proposal.out)
+(proposal.out) (proposal.out)
 \@outlinefile=\write3
-\openout3 = `proposal.out'.
-
 LaTeX Font Info:    Try loading font information for U+msa on input line 74.
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 74.
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 74.
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 ) [1
 
-{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
-
- []
-
-
+{C:/Users/TingZ/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [2]
 Underfull \hbox (badness 10000) in paragraph at lines 111--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--115
 
  []
 
@@ -574,66 +539,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--117
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
  []
 
-<<<<<<< HEAD
-(./proposal.bbl [2]) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--124
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
+
+ []
+
+(proposal.bbl [3]
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+) 
 AED: lastpage setting LastPage
-[3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 129.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
- (./proposal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 129.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 129.
-=======
-(proposal.bbl [2]) 
-AED: lastpage setting LastPage
-[3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 126.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 126.
+[4]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 138.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 138.
  (proposal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 126.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 126.
->>>>>>> Pr1deT/master
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 138.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 138.
 Package rerunfilecheck Info: File `proposal.out' has not changed.
-(rerunfilecheck)             Checksum: BA0B7DF5180CADD101B76B7FDFD8F52D;346.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
+(rerunfilecheck)             Checksum: D04C299556EAC933092FDB5722BEB278;352.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 138.
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 9262 strings out of 493117
- 135890 string characters out of 6135433
- 238033 words of memory out of 5000000
- 12561 multiletter control sequences out of 15000+600000
- 17117 words of font info for 62 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 29i,11n,43p,647b,435s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
-xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/tex
-live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/te
-xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
-ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texliv
-e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
-014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/20
-14/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/201
-4/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on proposal.pdf (3 pages, 122408 bytes).
-PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
- 88 compressed objects within 1 object stream
- 18 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
-=======
- 9148 strings out of 493673
- 133667 string characters out of 3141531
- 234170 words of memory out of 3000000
- 12343 multiletter control sequences out of 15000+200000
+ 9171 strings out of 493673
+ 134169 string characters out of 3141531
+ 236476 words of memory out of 3000000
+ 12360 multiletter control sequences out of 15000+200000
  17117 words of font info for 62 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 29i,11n,43p,2003b,431s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,12n,43p,1986b,439s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
@@ -644,10 +591,9 @@ les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files
 MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKT
 eX 2.9/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on proposal.pdf (3 pages, 133504 bytes).
+Output written on proposal.pdf (4 pages, 146172 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 17 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
->>>>>>> Pr1deT/master
+ 122 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
+ 49 words of extra memory for PDF output out of 10000 (max. 10000000)
 

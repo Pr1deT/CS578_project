@@ -55,7 +55,7 @@
 %\setlength\parindent{0pt} % Removes all indentation from paragraphs
 
 \title{
-\textbf{Project Proposal} \\ \textsc{\textit{Project name}} \\
+\textbf{Project Proposal} \\ \textsc{\textit{Sensing Semantic Information from Mobile Social Networks}} \\
 }
 
 \author{
@@ -75,13 +75,12 @@
 %\thispagestyle{empty}
 
 \section{Introduction}
-\textit{What is the project}
-
-\textit{Motivation}
+Human society consists of extensive communications and interactions between individuals, via the use of mobile sensors, such as mobile phones, tablets and GPS. The understanding of individual relations from these sensors, can greatly facilitate and promote the interactions between individuals. For example, listing phone contacts in semantic orders according to the time and location when a person wants to make a phone call, would save the person both time and memory load, to find a specific contact from a phone book with tons of contacts based on alphabetic order.
+Therefore, in this project, we will focus on the inference of friend relationships with the detection of communities using data collected from mobile phones. Detailed explanation of dataset is stated in section \ref{Data and Evaluation plan}.
 
 \section{Related work}
 \subsection{Relationship Inference}
-Relationship inference in social networks has been studied in various fields and domains. In this context, we refer to friendship inference between pairs of individuals. Representing social networks with topology structures provides insights to predict relationships  between individuals based on topology and probability distribution of the links in the topology. \cite{liben-nowell_link-prediction_2007} proposed different measurements to compute the \"similarity\" between two nodes (individuals) in the graph, including the distance between two nodes, number of shared neighbors, and \"meta-approaches\" that integrate different measurements. Beyond topological structures, individual attribute and context information have also been utilized to facilitate the construction of relations between individuals. In the study from \cite{liben-nowell_link-prediction_2007}, correlations between individuals were constructed using user attributes with relational Markov Networks. For instance, they proposed a transitivity pattern that is useful in relationship prediction, where the presence of A-B relation and B-C relation promotes the probability of A-C relation. Context information, such as locations and periods of time, has also shown potentials to predict social ties. Using location information alone may not be a sufficient predictor. In \cite{crandall_inferring_2010}'s work, only 0.1\% of the relations were predicted with a confidence of 60\%. However, when network structure are analyzed together with location information, over 90\% friendship were detected with confidence over 80\%, illustrated in the study from \cite{sadilek_finding_2012}. Although location information alone is not a good indicator for friendship inference, a number of researches have indicated the importance between social ties and distance. The integration of location information and other features are also proved to be of high accuracy in friendship inference.
+Relationship inference in social networks has been studied in various fields and domains. In this context, we refer to friendship inference between pairs of individuals. Representing social networks with topology structures provides insights to predict relationships  between individuals based on topology and probability distribution of the links in the topology. \cite{liben-nowell_link-prediction_2007} proposed different measurements to compute the \"similarity\" between two nodes (individuals) in the graph, including the distance between two nodes, number of shared neighbors, and \"meta-approaches\" that integrate different measurements. Beyond topological structures, individual attribute and context information have also been utilized to facilitate the construction of relations between individuals. In the study from \cite{taskar_link_2004}, correlations between individuals were constructed using user attributes with relational Markov Networks. For instance, they proposed a transitivity pattern that is useful in relationship prediction, where the presence of A-B relation and B-C relation promotes the probability of A-C relation. Context information, such as locations and periods of time, has also shown potentials to predict social ties. Using location information alone may not be a sufficient predictor. In \cite{crandall_inferring_2010}'s work, only 0.1\% of the relations were predicted with a confidence of 60\%. However, when network structure are analyzed together with location information, over 90\% friendship were detected with confidence over 80\%, illustrated in the study from \cite{sadilek_finding_2012}. Although location information alone is not a good indicator for friendship inference, a number of researches have indicated the importance between social ties and distance. The integration of location information and other features are also proved to be of high accuracy in friendship inference.
 
 \subsection{Community Detection}
 In previous research such as the paper by \cite{xie_community_2011}, from the analysis of individual data collected, community detection in social networks focus on grouping the people into overlap or distinct communities while the people from same community have stronger general relationships or share the similar characteristics. Further more, in the paper by \cite{mislove_you_2010}, community detection were used to inferring the profile information of people based on the profile information from other members in the same community, while some of the members in community have profile information vacant.
@@ -89,8 +88,18 @@ In previous research such as the paper by \cite{xie_community_2011}, from the an
 \section{Problem formulation}
 \textit{Describe your project as a machine learning problem, identify inputs objects, labels, possible features}
 
-\section{Data and Evaluation plan}
-\textit{Describe the data you intend to use. Mention if there is an existing data source you intend to use, or if annotation is required}
+\section{Data and Evaluation plan} \label{Data and Evaluation plan}
+We will use a reality mining dataset from MIT media lab \cite{eagle_inferring_2009}. The dataset consists of phone logs of 94 subjects from September 2004 to June 2005. Among these 94 subjects, 68 were colleagues working in the same building (90\% were graduate students, while 10\% were staff). The remaining 26 subjects were incoming students from the business school. The dataset was collected from Nokia 6600 phones programmed to automatically run a log application as background process, including phone log, bluetooth and location. The format of each log is summarized as following:
+\begin{itemize}
+\item[*]
+Phone log: (TIME)  20060720T211505  (DESCRIPTION)  Voice  call  (DIRECTION)  Outgoing  (DURATION 
+seconds) 23 (NUMBER) 6175559821
+\item[*]
+Bluetooth: (TIME) 20060721T111222 devices: 000e6d2a3564 [Amy’s Phone]000e6d2b06ea [Jon’s PalmPilot] 
+\item[*]
+Location:(TIME) 20060721T111222 (CELL AREA) 24127, (CELL TOWER) 111, (SERVICE PROVIDER) AT\&T 
+Wirel (USER DEFINED LOCATION NAME) My Office
+\end{itemize}
 
 \textit{How will you evaluate your algorithm? What is a reasonable baseline?}
 
