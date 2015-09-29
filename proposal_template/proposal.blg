@@ -3,9 +3,13 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: proposal.aux
 The style file: plainnat.bst
 Database file #1: CS578_project.bib
+Warning--empty journal in crandall_inferring_2010
+Warning--empty year in crandall_inferring_2010
+Warning--empty year in crandall_inferring_2010
 Warning--empty journal in liben-nowell_link-prediction_2007
 Warning--empty year in liben-nowell_link-prediction_2007
 Warning--empty year in liben-nowell_link-prediction_2007
+<<<<<<< HEAD
 Warning--empty year in mislove_you_2010
 Warning--empty year in mislove_you_2010
 Warning--empty year in xie_community_2011
@@ -52,3 +56,8 @@ while$ -- 17
 width$ -- 0
 write$ -- 58
 (There were 7 warnings)
+=======
+Warning--empty year in sadilek_finding_2012
+Warning--empty year in sadilek_finding_2012
+(There were 8 warnings)
+>>>>>>> Pr1deT/master
