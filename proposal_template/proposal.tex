@@ -95,11 +95,15 @@ Besides the classic community detection model, as our social network may contain
 
 
 \section{Problem formulation}
-\textit{Describe your project as a machine learning problem, identify inputs objects, labels, possible features}
+\subsection{Friendship Inference}
+In the dataset we will use, a survey was conducted for all participants, asking them rate the friendship with all other participants from 1 to 5. These information will be used as ground truth for the friendship inference problem. In the standard setting, we will binarize the friendship ratings and formulate the output of this problem as a binary label (either friend or not friend). As an advanced setting, we will try to predict the level of friendship, therefore, the output label would be from 1 to 5. The input of this problem would be a vector of features extracted from dataset. Different features and combinations of features will be experimented to investigate the key factors that would represent friendship. In the dataset, there is information including meeting time, duration and location between two individuals. 
 \subsection{Community Detection}
 For community detection problem, the ideal community result we want to get is the group belongings of the individual. As provided by the dataset we use, there were 94 volunteer participate the entire data collecting process. 68 of them were colleagues working in the same building on campus (90\% graduate students, 10\% staff) while the remaining 26 participants were incoming students at the university’s business school. The above identification information for each individual is stored inside the dataset.
+
 For the problem statement, we define the network between the participants as two distinct social network, phone call network and Bluetooth network. Each phone call or Bluetooth connection between individuals would be counted as an ''edge'' in the network. As both of the networks may contain duplicate friendships, we may firstly turns the relation condition between people as a binary variable, which is '' whether the two individuals have connection''. For the fundamental implementation, we would use the clustering and modularity algorithm. Then, for an advanced trial, we would combine the duplicate friendship as weighted edge, then apply K-means clustering on the entire network.
 Finally, we will try to combine the phone call network together with the Bluetooth network, and see if there is any improvement.
+\subsection{Relations between Frienship Inference and Community Detection}
+Friendship inference and community detection are two directions in the research of exploring social networks. These two directions can be different but also helpful in each other. For example, the result of community detection could be served as a feature indicating the relation between two individuals. People in the same community may inherit more probabilities to be friends. In the other direction, the level of friendship between individuals can also worked as a feature to predict community labels. The relations between firenship inference and community detection will also be investigated in this project.
 
 \section{Data and Evaluation Plan} \label{Data and Evaluation plan}
 We will use a reality mining dataset from MIT media lab \cite{eagle_inferring_2009}. The dataset consists of phone logs of 94 subjects from September 2004 to June 2005. Among these 94 subjects, 68 were colleagues working in the same building (90\% were graduate students, while 10\% were staff). The remaining 26 subjects were incoming students from the business school. The dataset was collected from Nokia 6600 phones programmed to automatically run a log application as background process, including phone log, bluetooth and location. The format of each log is summarized as following:
@@ -114,35 +118,9 @@ Location:(TIME) 20060721T111222 (CELL AREA) 24127, (CELL TOWER) 111, (SERVICE PR
 Wirel (USER DEFINED LOCATION NAME) My Office
 \end{itemize}
 
-For the evaluation function of the community detection algorithm, we will check the group label inside each community, then compute the purity of the community, which is the purity of the cluster shown as \(\dfrac{\#majority\ group\ member}{\#total group member}\). Then, we will make a weighted combination for the purity in each community according to the size of community, then use the final purity value as the evaluation of our community detection algorithm(A value between 0 and 1, the larger the better).
+To evalute the performance of friendship inference algorithm, we will check the four measurements: false negatives, true negatives, precision and recall. The baseline of the result would be only considering the result of comunity detection. If two individuals were in the same community, they would be considered as friends. 
+For the evaluation function of the community detection algorithm, we will check the group label inside each community, then compute the purity of the community, which is the purity of the cluster shown as \(\dfrac{\#majority\ group\ member}{\#total\ group\ member}\). Then, we will make a weighted combination for the purity in each community according to the size of community, then use the final purity value as the evaluation of our community detection algorithm(A value between 0 and 1, the larger the better).
 For the baseline of the result, we should make the whole experiment group as one cluster, then compute the purity value for comparison.
-
-\textit{How will you evaluate your algorithm? What is a reasonable baseline?}
-
-\section*{Submission Instructions:} 
-\textit{delete this section when submitting}
-
-You are required to use \LaTeX \, to type your solutions to questions, and report of your programing as well. Other formats of submission will \textbf{not} be accepted. A template named ``homework.tex" is also provided for your convenience.\\
-
-After logging into data.cs.purdue.edu (physically go to the lab or use ssh remotely, you are all granted the accounts to CS data machines during this class), please follow these steps to submit your assignment:
-\begin{enumerate}
-	\item Make a directory named \textit{`your Name\_your Surname'} and copy all of your files there.
-	\item While in the upper level directory (if the files are in /homes/dan/dan\_goldwasser, go to/homes/dan), execute the following command:\\
-
-	\texttt{turnin -c cs578 -p PROPOSAL *your\_folder\_name*}
-		
-	(e.g. your prof would use: \texttt{turnin -c cs578 -p PROPOSAL dan\_goldwasser} to submit his work)\\
-		
-	Keep in mind that old submissions are overwritten with new ones whenever you execute this
-command.\\
-
-	\item You can verify the contents of your submission by executing the following command:\\
-	
-	\texttt{turnin -v -c cs578 -p PROPOSAL\\}
-
-	Do \textbf{not} forget the -v flag here, as otherwise your submission would be replaced with an empty
-one.
-\end{enumerate}
 
 %\nocite{*}
 \bibliographystyle{plainnat}
