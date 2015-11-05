@@ -1,5 +1,7 @@
 \BOOKMARK [1][-]{section.1}{Problem Definition}{}% 1
-\BOOKMARK [1][-]{section.2}{Data}{}% 2
-\BOOKMARK [1][-]{section.3}{Baseline Results}{}% 3
-\BOOKMARK [2][-]{subsection.3.1}{Friendship Inference}{section.3}% 4
-\BOOKMARK [2][-]{subsection.3.2}{Community Detection}{section.3}% 5
+\BOOKMARK [2][-]{subsection.1.1}{Friendship Inference}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Community Detection}{section.1}% 3
+\BOOKMARK [1][-]{section.2}{Data}{}% 4
+\BOOKMARK [1][-]{section.3}{Baseline Results}{}% 5
+\BOOKMARK [2][-]{subsection.3.1}{Friendship Inference}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.2}{Community Detection}{section.3}% 7
