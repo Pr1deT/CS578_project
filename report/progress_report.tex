@@ -80,7 +80,15 @@
 \subsection{Community Detection}
 
 \section{Data}
+\subsection{Friendship Inference}
 
+\subsection{Community Detection}
+The classic community detection problem is based on unweighted and undirected graph, while the edges in the graph should not sparse, which means at least the vertexes from the same community should be connected with each other. 
+After the initial study of the dataset, we notice that the data from the questionnaire indicating people's close friend circle and the time people usually spend with others every week are quite sparse. Thus, we need to use other type of data with larger data size for the community detection input.
+
+The Bluetooth information in the dataset are collected by scanning the cellphones inside user's Bluetooth connecting range every 5 minutes within the 9-months experiment. This instantly scanning results in about 4 million proximity events in the dataset. By creating edge between the cellphone users or adding weight to the edge for each appearance of a user's cellphone on others' devices, we generated a weighted graph indicating the frequency of meeting between people. As the devices would continuously listing the devices while people were in long-time meeting, this generating function would automatically adding more weight for the long-time meeting.
+
+After getting the weighted graph between people, we would extract the meeting frequency between each pair of people and combine it with the ground truth of whether the pair of people are in the same affiliation, then computes the best threshold for dropping the low frequency connection between people by evaluating the entropy in original class and maximizing the information after classifying the connections by the threshold. Then, we leave only high frequency connections between people as the potential friendship, which are the unweighted and undirected edges in the graph.
 
 \section{Baseline Results}
 \subsection{Friendship Inference}
