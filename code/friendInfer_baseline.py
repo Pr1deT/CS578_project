@@ -70,8 +70,12 @@ def get_perfor(predict, ground_truth):
         predict_true_label.add((predict_true_label_m[0][i],predict_true_label_m[1][i])) #= predict_true_label + ()
         i = i + 1
 
-    p = predict_true_label & true_label
-    performance['true_positive'] = len(predict_true_label & true_label)
+    p = predict_true_label.intersection(true_label)
+    print (9,78) in predict_true_label
+    print (9,78) in true_label
+    print (9,78) in p
+
+    performance['true_positive'] = len(p)
 
         #np.sum(true_label == predict_true_label)
 

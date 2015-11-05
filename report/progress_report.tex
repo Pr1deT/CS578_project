@@ -75,12 +75,22 @@
 %\thispagestyle{empty}
 
 \section{Problem Definition}
+As explained in the project proposal, our project focuses on the study of social network information in two parts:  Friendship Inference and Community Detection. In the following sections, we will explain these two parts separately.
 \subsection{Friendship Inference}
+Topology structures have been analyzed to study the friendship relations between two individuals. Mostly, researchers are building topologies based on personal information, such as hobbits, favorite movies and frequently visited places. And then, \"similarity\" between individuals are computed based on topological structures. However, in this project, we are not interested in topological approaches. Instead, we want to apply the machine learning algorithms we learnt from this class. Here, we will try three algorithms, including Decision Tree, Perceptron and Adaboost. Bag of features or attributes are extracted and explained in \ref{Data}. We denote the input feature set as \(X\), and a feature \(i\) as \(x_i \in X\). The output would be a boolean label indicating the relation of friend or not.
 
 \subsection{Community Detection}
 
 \section{Data}
+The dataset originally consisted completed data from 94 subjects with 106 participants in total. A mapping is provided to get the complete data of 94 subjects from the whole dataset. However, in the mapping, we found an error index of participants 107. Therefore, only 93 participants' data are used in this project. 
 \subsection{Friendship Inference}
+As explained in the project proposal, three types of information from the dataset are extracted and used as input feature for pari of individuals.
+\begin{itemize}
+\item[*] Bluetooth information: The most commom begin time and duration of bluetooth meeting. 
+\item[*] Phone call record: The most common begin time and duration of phone call.
+\item[*] Location record: The most common shared location and its corresponding begin time.
+\end{itemize}
+Here, we catgorized the begin time into seven groups: early morning (5:00am - 7:00am), morning (7:00am - 11:00am), noon (11:00am - 1:00pm), afternoon (1:00pm - 5:00pm), early evening (5:00pm - 8:00pm), late night (8:00pm - 1:00am) and midnight (1:00am - 5:00am).
 
 \subsection{Community Detection}
 The classic community detection problem is based on unweighted and undirected graph, while the edges in the graph should not sparse, which means at least the vertexes from the same community should be connected with each other. 
@@ -90,9 +100,10 @@ The Bluetooth information in the dataset are collected by scanning the cellphone
 
 After getting the weighted graph between people, we would extract the meeting frequency between each pair of people and combine it with the ground truth of whether the pair of people are in the same affiliation, then computes the best threshold for dropping the low frequency connection between people by evaluating the entropy in original class and maximizing the information after classifying the connections by the threshold. Then, we leave only high frequency connections between people as the potential friendship, which are the unweighted and undirected edges in the graph.
 
+
 \section{Baseline Results}
 \subsection{Friendship Inference}
-
+As stated in the project proposal, baseline approach of frienship inference is
 \subsection{Community Detection}
 
 
