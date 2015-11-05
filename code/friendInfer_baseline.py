@@ -52,7 +52,30 @@ def friend_matrix(community):
 
     return fr_mat
 
+# compute the four performance measurement
+def get_perfor(predict, ground_truth):
+    performance = {'true_positive':0, 'false_positive':0, 'false_negative':0, 'true_negative':0}
 
+    true_label_m = np.where(ground_truth == 1)
+    i = 0
+    true_label = set()
+    while i < len(true_label_m[0]):
+        true_label.add((true_label_m[0][i],true_label_m[1][i])) #= true_label +
+        i = i + 1
+
+    predict_true_label_m = np.where(predict == 1)
+    i = 0
+    predict_true_label = set()
+    while i < len(predict_true_label_m[0]):
+        predict_true_label.add((predict_true_label_m[0][i],predict_true_label_m[1][i])) #= predict_true_label + ()
+        i = i + 1
+
+    p = predict_true_label & true_label
+    performance['true_positive'] = len(predict_true_label & true_label)
+
+        #np.sum(true_label == predict_true_label)
+
+    return performance
 
 # main
 def main():
@@ -73,8 +96,11 @@ def main():
     # get baseline accuracy for friendship inference
     fr_mat = friend_matrix(community)
 
-    print fr_mat
+    #print fr_mat
 
+    # get accuracy
+    performance = get_perfor(fr_mat, ground_truth)
+    print performance
 
 
 
