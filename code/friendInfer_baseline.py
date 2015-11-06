@@ -47,6 +47,7 @@ def friend_matrix(community):
         ind2 = ind1
         while ind2 < len(community):
             fr_mat[ind1][ind2] = is_friend(ind1, ind2, community)
+            fr_mat[ind2][ind1] = None
             ind2 = ind2 + 1
         ind1 = ind1 + 1
 
@@ -56,26 +57,55 @@ def friend_matrix(community):
 def get_perfor(predict, ground_truth):
     performance = {'true_positive':0, 'false_positive':0, 'false_negative':0, 'true_negative':0}
 
-    true_label_m = np.where(ground_truth == 1)
-    i = 0
-    true_label = set()
-    while i < len(true_label_m[0]):
-        true_label.add((true_label_m[0][i],true_label_m[1][i])) #= true_label +
-        i = i + 1
+    true_label = get_label_set(ground_truth,1)
+    predict_true_label = get_label_set(predict,1)
+    false_label = get_label_set(ground_truth,0)
+    predict_false_label = get_label_set(predict,0)
 
-    predict_true_label_m = np.where(predict == 1)
-    i = 0
-    predict_true_label = set()
-    while i < len(predict_true_label_m[0]):
-        predict_true_label.add((predict_true_label_m[0][i],predict_true_label_m[1][i])) #= predict_true_label + ()
-        i = i + 1
+    p = predict_true_label.intersection(true_label)
+    #print (9,78) in predict_true_label
+    #print (9,78) in true_label
+    #print (9,78) in p
 
-    p = predict_true_label & true_label
-    performance['true_positive'] = len(predict_true_label & true_label)
-
-        #np.sum(true_label == predict_true_label)
+    performance['true_positive'] = len(true_label&predict_true_label)
+    performance['false_positive'] = len(false_label&predict_true_label)
+    performance['false_negative'] = len(true_label&predict_false_label)
+    performance['true_negative'] = len(false_label&predict_false_label)
 
     return performance
+
+# get set for labels
+def get_label_set(label_set, input_label):
+    label_m = np.where(label_set == input_label)
+    i = 0
+    label = set()
+    while i < len(label_m[0]):
+        label.add((label_m[0][i],label_m[1][i])) #= predict_true_label + ()
+        i = i + 1
+
+    return label
+
+# get groud truth of friendship
+def get_fr_gt_mat(gt):
+    #gt[np.isnan(gt)] = 0
+    fr_mat = gt
+    i = 0
+    while i < len(gt):
+        j = i
+        while j < len(gt):
+            if i == j:
+                fr_mat[i][j] = 1
+            elif gt[i][j] == 1:
+                fr_mat[j][i] = 0
+            elif gt[j][i] == 1:
+                fr_mat[i][j] = 1
+                fr_mat[j][i] = 0
+            else:
+                fr_mat[i][j] = 0
+            j = j + 1
+        i = i + 1
+
+    return fr_mat
 
 # main
 def main():
@@ -95,12 +125,15 @@ def main():
 
     # get baseline accuracy for friendship inference
     fr_mat = friend_matrix(community)
-
-    #print fr_mat
-
+    fr_gt_mat = get_fr_gt_mat(ground_truth)
     # get accuracy
-    performance = get_perfor(fr_mat, ground_truth)
+    performance = get_perfor(fr_mat, fr_gt_mat)
     print performance
+
+    precision = 1.0 * (performance['true_positive'])/(performance['true_positive']+performance['false_positive'])
+    recall = 1.0 * (performance['true_positive'])/(performance['true_positive']+performance['false_negative'])
+
+    print 'precision: ', precision, ' recall: ', recall
 
 
 
