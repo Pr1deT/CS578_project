@@ -77,11 +77,11 @@
 \section{Problem Definition}
 As explained in the project proposal, our project focuses on the study of social network information in two parts:  Friendship Inference and Community Detection. In the following sections, we will explain these two parts separately.
 \subsection{Friendship Inference}
-Topology structures have been analyzed to study the friendship relations between two individuals. Mostly, researchers are building topologies based on personal information, such as hobbits, favorite movies and frequently visited places. And then, \"similarity\" between individuals are computed based on topological structures. However, in this project, we are not interested in topological approaches. Instead, we want to apply the machine learning algorithms we learnt from this class. Here, we will try three algorithms, including Decision Tree, Perceptron and Adaboost. Bag of features or attributes are extracted and explained in \ref{Data}. We denote the input feature set as \(X\), and a feature \(i\) as \(x_i \in X\). The output would be a boolean label indicating the relation of friend or not.
+Topology structures have been analyzed to study the friendship relations between two individuals. Mostly, researchers are building topologies based on personal information, such as hobbits, favorite movies and frequently visited places. And then, \"similarity\" between individuals are computed based on topological structures. However, in this project, we are not interested in topological approaches. Instead, we want to apply the machine learning algorithms we learnt from this class. Here, we will try three algorithms, including Decision Tree, Perceptron and Adaboost. Bag of features or attributes are extracted and explained in section~\ref{sec2}. We denote the input feature set as \(X\), and a feature \(i\) as \(x_i \in X\). The output would be a boolean label indicating the relation of friend or not.
 
 \subsection{Community Detection}
 
-\section{Data}
+\section{Data}\label{sec2}
 The dataset originally consisted completed data from 94 subjects with 106 participants in total. A mapping is provided to get the complete data of 94 subjects from the whole dataset. However, in the mapping, we found an error index of participants 107. Therefore, only 93 participants' data are used in this project. 
 \subsection{Friendship Inference}
 As explained in the project proposal, three types of information from the dataset are extracted and used as input feature for pari of individuals.
@@ -103,13 +103,13 @@ After getting the weighted graph between people, we would extract the meeting fr
 
 \section{Baseline Results}
 \subsection{Friendship Inference}
-As stated in the project proposal, baseline approach of frienship inference is
+As stated in the project proposal, baseline approach of frienship inference is using the community information of each individual. If two individuals are in the same community, then they are predicted as friends. The results of this baseline approach is with precision of \(6.17\%\) and recall of \(75.3\%\).
 \subsection{Community Detection}
 
 
 
 %\nocite{*}
-\bibliographystyle{plainnat}
+%\bibliographystyle{plainnat}
 %\bibliographystyle{ieeetr}
 \bibliography{CS578_project}
 
