@@ -25,7 +25,29 @@ def countComponent(relation):
     print "number of component", component
     return component
 
-#def findShortestPath(relation,x):
+#find all shortest path from x to each vertex
+def findShortestPath(relation,x):
+    q = [x]
+    mypath = {}
+    mypath[x] = []
+    myweight = {}
+    myweight[x] = 0
+    while q:
+        v = q.pop(0)
+        for idx in range(len(relation[0])):
+            if relation[v][idx] != 0:
+                if idx not in myweight:
+                    mypath[idx] = mypath[v]+[(v,idx)]
+                    myweight[idx] = myweight[v]+1
+                    q += [idx]
+                else:
+                    if myweight[idx]>myweight[v]+1:
+                        mypath[idx] = mypath[v]+[(v,idx)]
+                        myweight[idx] = myweight[v]+1
+                    if myweight[idx]==myweight[v]+1:
+                        mypath[idx] += mypath[v] + [(v,idx)]
+
+    return mypath
 
 
 
@@ -103,7 +125,43 @@ print "new relation",len(newrelation),len(newrelation[0])
 print "new community",len(community)
 print community
 
-countComponent(relation)
+component = 0
+
+while component<10:
+    newcomponent = countComponent(relation)
+
+    if newcomponent != component:
+#        evalue(relation)
+        component = newcomponent
+
+    #compute initial edge weight
+    path = []
+    for x in range(len(relation)):
+        path += [findShortestPath(relation,x)]
+
+    #summarise result
+    edgeWeight = {}
+    for v in path:
+        for ele in v:
+            for edge in v[ele]:
+                if edge not in edgeWeight:
+                    edgeWeight[edge] = 1
+                else:
+                    edgeWeight[edge] += 1
+
+    maxkey,maxvalue = None,0
+    for e in edgeWeight:
+#        print e,":",edgeWeight[e]
+        if edgeWeight[e]>maxvalue:
+            maxkey = e
+            maxvalue = edgeWeight[e]
+
+    print "max edge:",maxkey,":",maxvalue
+    x,y = maxkey
+    relation[x][y],relation[y][x] = 0,0
+
+
+
 
 
 
