@@ -4,7 +4,7 @@
 % call duration: total duration
 
 load('../Data/dataset_85.mat','dataset');
-%load('../Data/index_map.mat','network');
+load('../Data/friend_ground_truth_85.mat','friend_ground_truth');
 
 % get hashed number mapping with person id
 % iterate through every subject data
@@ -69,9 +69,22 @@ for i = 1:numel(dataset)
     allKeys = keys(numOfCalls);
     for j = 1:numel(allKeys)
         oneKey = allKeys(j);
-        oneEntry = [i,str2double(oneKey),numOfCalls(char(oneKey)),durOfCalls(char(oneKey)),1.0*nightCalls(char(oneKey))/durOfCalls(char(oneKey))];
+        label = friend_ground_truth(i,str2double(oneKey));
+        if isnan(label)
+            label = friend_ground_truth(str2double(oneKey),i);
+        end
+        if isnan(label)
+            label = 0;
+        end
+        if durOfCalls(char(oneKey))==0
+            oneEntry = [i,str2double(oneKey),numOfCalls(char(oneKey)),durOfCalls(char(oneKey)),0,label];
+        else
+            oneEntry = [i,str2double(oneKey),numOfCalls(char(oneKey)),durOfCalls(char(oneKey)),1.0*nightCalls(char(oneKey))/durOfCalls(char(oneKey)),label];
+        end
+        
         %oneEntry
         attr = [attr;oneEntry];
     end
 end
 
+csvwrite('../Data/feature_85.csv', attr);
