@@ -1,0 +1,85 @@
+\begin{thebibliography}{9}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Crandall et~al.()Crandall, Backstrom, Cosley, Suri, Huttenlocher, and
+  Kleinberg]{crandall_inferring_2010}
+D.~J. Crandall, L.~Backstrom, D.~Cosley, S.~Suri, D.~Huttenlocher, and
+  J.~Kleinberg.
+\newblock Inferring social ties from geographic coincidences.
+\newblock 107:\penalty0 22436--22441.
+\newblock ISSN 0027-8424.
+\newblock \doi{10.1073/pnas.1006155107}.
+\newblock URL \url{http://adsabs.harvard.edu/abs/2010PNAS..10722436C}.
+
+\bibitem[Eagle et~al.()Eagle, Pentland, and Lazer]{eagle_inferring_2009}
+Nathan Eagle, Alex~(Sandy) Pentland, and David Lazer.
+\newblock Inferring friendship network structure by using mobile phone data.
+\newblock 106\penalty0 (36):\penalty0 15274--15278.
+\newblock ISSN 0027-8424, 1091-6490.
+\newblock \doi{10.1073/pnas.0900282106}.
+\newblock URL \url{http://www.pnas.org/content/106/36/15274}.
+
+\bibitem[Girvan and Newman()]{girvan_community_2002}
+M.~Girvan and M.~E.~J. Newman.
+\newblock Community structure in social and biological networks.
+\newblock 99\penalty0 (12):\penalty0 7821--7826.
+\newblock ISSN 0027-8424, 1091-6490.
+\newblock \doi{10.1073/pnas.122653799}.
+\newblock URL \url{http://www.pnas.org/content/99/12/7821}.
+
+\bibitem[Liben-Nowell and Kleinberg()]{liben-nowell_link-prediction_2007}
+David Liben-Nowell and Jon Kleinberg.
+\newblock The link-prediction problem for social networks.
+\newblock 58\penalty0 (7):\penalty0 1019--1031.
+\newblock ISSN 1532-2882.
+\newblock \doi{10.1002/asi.v58:7}.
+\newblock URL \url{http://dx.doi.org/10.1002/asi.v58:7}.
+
+\bibitem[Mislove et~al.()Mislove, Viswanath, Gummadi, and
+  Druschel]{mislove_you_2010}
+Alan Mislove, Bimal Viswanath, Krishna~P. Gummadi, and Peter Druschel.
+\newblock You are who you know: Inferring user profiles in online social
+  networks.
+\newblock In \emph{Proceedings of the Third {ACM} International Conference on
+  Web Search and Data Mining}, {WSDM} '10, pages 251--260. {ACM}.
+\newblock ISBN 978-1-60558-889-6.
+\newblock \doi{10.1145/1718487.1718519}.
+\newblock URL \url{http://doi.acm.org/10.1145/1718487.1718519}.
+
+\bibitem[Newman()]{newman_fast_2004}
+M.~E.~J. Newman.
+\newblock Fast algorithm for detecting community structure in networks.
+\newblock 69\penalty0 (6):\penalty0 066133.
+\newblock \doi{10.1103/PhysRevE.69.066133}.
+\newblock URL \url{http://link.aps.org/doi/10.1103/PhysRevE.69.066133}.
+
+\bibitem[Sadilek et~al.()Sadilek, Kautz, and Bigham]{sadilek_finding_2012}
+Adam Sadilek, Henry Kautz, and Jeffrey~P. Bigham.
+\newblock Finding your friends and following them to where you are.
+\newblock In \emph{Proceedings of the Fifth {ACM} International Conference on
+  Web Search and Data Mining}, {WSDM} '12, pages 723--732. {ACM}.
+\newblock ISBN 978-1-4503-0747-5.
+\newblock \doi{10.1145/2124295.2124380}.
+\newblock URL \url{http://doi.acm.org/10.1145/2124295.2124380}.
+
+\bibitem[Taskar et~al.()Taskar, Wong, Abbeel, and Koller]{taskar_link_2004}
+Ben Taskar, Ming-fai Wong, Pieter Abbeel, and Daphne Koller.
+\newblock Link prediction in relational data.
+\newblock In S.~Thrun, L.~K. Saul, and B.~Schölkopf, editors, \emph{Advances
+  in Neural Information Processing Systems 16}, pages 659--666. {MIT} Press.
+\newblock URL
+  \url{http://papers.nips.cc/paper/2465-link-prediction-in-relational-data.pdf}.
+
+\bibitem[Xie and Szymanski()]{xie_community_2011}
+Jierui Xie and B.K. Szymanski.
+\newblock Community detection using a neighborhood strength driven label
+  propagation algorithm.
+\newblock In \emph{2011 {IEEE} Network Science Workshop ({NSW})}, pages
+  188--195.
+\newblock \doi{10.1109/NSW.2011.6004645}.
+
+\end{thebibliography}
