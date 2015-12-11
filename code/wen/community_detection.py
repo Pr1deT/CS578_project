@@ -152,6 +152,11 @@ for x in range(len(relation)):
 relation = newrelation
 community = newcommunity
 
+# add by Ting
+# save newrelation as csv file for friendInfer.py
+np.savetxt("../../Data/bluetooth_net.csv", newrelation, delimiter=",")
+
+
 print "new relation",len(newrelation),len(newrelation[0])
 print "new community",len(community)
 print community
