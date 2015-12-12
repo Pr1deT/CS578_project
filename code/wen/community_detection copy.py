@@ -87,7 +87,7 @@ def evalue(relation,community):
 
 #data initialization
 
-f = open("relation.csv")
+f = open("feature_share.csv")
 reader = csv.reader(f, delimiter=',')
 relation = list(reader)
 f.close()
