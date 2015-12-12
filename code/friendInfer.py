@@ -155,6 +155,10 @@ def get_friend_net_svm(data_85):
     testX = data_85[:,2:data_85.shape[1]-1]
     testY = data_85[:,data_85.shape[1]-1]
 
+    # test feature
+    trainX = train[:,3:train.shape[1]-1]
+    testX = data_85[:,3:train.shape[1]-1]
+
     # fit the model
     clf = svm.SVC(kernel='rbf',class_weight={1: 10})
     clf.fit(trainX, trainY)
