@@ -141,6 +141,39 @@ Friendship inference and community detection are two directions in the research 
 
 \section{Result and Analysis} \label{result}
 \subsection{Friendship Inference}
+\subsubsection{Feature Selection}
+To infer frienship relation, choosing the correct features can be an important aspect to prompt the classification performance. From mobile data, we extracted three features, including the total number of phone calls, the total duration of phone calls and the ratio of night calls. As a first thought, the ratio of night calls seems to be an attempting important indicator to friend relations. However, in experiment, none of the friend relations can be found if only this feature is used. Besides the ratio of night calls, the total duration of phone calls is also a good indicator for friends. Almost half of the friend relations can be detected, when using both durations and ratio of night calls. However, the feature of number of phone calls is not as useful as the other two features. When tested with all three feature used, there is no improvement of detecting friend relations, but only 3 more number of non-friend relations.
+
+The importance of night call ratio feature can also be observed by eliminating this feature. When this feature is not used, only $12.9\%$ of the friend relation was detected with an significant number of misclassified non-freind relations.
+
+%3,4
+%{'false_positive': 8, 'true_positive': 11, 'true_negative': 3562, 'false_negative': 142}
+%stucture--precision:  0.578947368421  recall:  0.0718954248366
+%{'false_positive': 11, 'true_positive': 10, 'true_negative': 1942, 'false_negative': 21}
+%svm--precision:  0.47619047619  recall:  0.322580645161
+%{'false_positive': 11, 'true_positive': 12, 'true_negative': 1942, 'false_negative': 19}
+%hybrid--precision:  0.521739130435  recall:  0.387096774194
+
+%2,3
+%{'false_positive': 8, 'true_positive': 11, 'true_negative': 3562, 'false_negative': 142}
+%stucture--precision:  0.578947368421  recall:  0.0718954248366
+%{'false_positive': 36, 'true_positive': 4, 'true_negative': 1917, 'false_negative': 27}
+%svm--precision:  0.1  recall:  0.129032258065
+%{'false_positive': 36, 'true_positive': 4, 'true_negative': 1917, 'false_negative': 27}
+%hybrid--precision:  0.1  recall:  0.129032258065
+
+%all
+%{'false_positive': 8, 'true_positive': 11, 'true_negative': 3562, 'false_negative': 142}
+%stucture--precision:  0.578947368421  recall:  0.0718954248366
+%{'false_positive': 5, 'true_positive': 10, 'true_negative': 1948, 'false_negative': 21}
+%svm--precision:  0.666666666667  recall:  0.322580645161
+%{'false_positive': 10, 'true_positive': 12, 'true_negative': 1943, 'false_negative': 19}
+%hybrid--precision:  0.545454545455  recall:  0.387096774194
+
+The non-friend relations is found to be easier to detect since the data contains much more samples of non-friend relations. $99.0\%$ of the non-friend relations were successfully detected when three features are all used. The ratio of friend and non-friend relation is around $1:70$. As the huge difference between the number of friend and non-friend data, an unbalanced version of svm is used to leverage this situation.
+
+\subsubsection{Comparison between three method}
+For the approach using topology structure, a precision of $57.90\%$ with a recall of $7.19\%$ was reached. The low rate of recall indicated the poor abilitiy of using only similarities between two nodes. For the approach using only pairwise information, a precision of $66.67\%$ with recall of $32.26\%$ was reached. And for the hybrid approach, a precision of $54.55\%$ with recall of $38.71\%$ was obtained. A higher accuracy was achieved when detecting friend relations using the hybrid approach. This advantage is more obvious when less feature was used. This implication can be furthur tested using a more proper dataset.
 
 \subsection{Community Detection}
 The subject’s affiliation:
