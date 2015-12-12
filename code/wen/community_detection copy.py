@@ -87,7 +87,7 @@ def evalue(relation,community):
 
 #data initialization
 
-f = open("relation.csv")
+f = open("friend_5.csv")
 reader = csv.reader(f, delimiter=',')
 relation = list(reader)
 f.close()
@@ -111,7 +111,7 @@ single2 = set()
 print "after filtering"
 for x in range(len(relation)):
     for y in range(len(relation[0])):
-        if relation[x][y] <= 5:
+        if relation[x][y] <= 0:
             relation[x][y] = 0
         else:
             relation[x][y] = 1
@@ -165,14 +165,13 @@ print community
 
 #evalue current clustering and break components
 component = 0
-edgenum = 0
+
 while component<10:
     newcomponent = countComponent(relation)
 
     #if new component number, then evaluate new clustering
     if newcomponent != component:
-        print "component:",newcomponent,"edges removed:",edgenum
-        edgenum = 0
+        print "component:",newcomponent
         evalue(relation,community)
         component = newcomponent
 
@@ -202,7 +201,6 @@ while component<10:
 #    print "max edge:",maxkey,":",maxvalue
     x,y = maxkey
     relation[x][y],relation[y][x] = 0,0
-    edgenum += 1
 
 
 
