@@ -195,6 +195,8 @@ As shown in the algorithm tracing result in \ref{appendix}, in the beginning of 
 
 After separating all the member of Sloan School, the algorithm continued to cut small sub-group out from the original component, while all the new component remained 100\% purity, but only had less than 3 members. This phenomena can be observed until we got the maximum number of components we set, which is 10 components. This means the Bluetooth behaviors across different sub-group inside Media Lab are almost identical with each other. 
 
+Besides the community detection on Bluetooth network, we also applied the same algorithm on the friend inference network, which is the result output of friend inference section. The result of the algorithm execution showed that the algorithm continuously cut the single vertex from the original component. This may because of the sparseness and low modularity of the friend inference result network.
+
 \section{Summary}\label{summary}
 From the result of community detection, we can get the conclusion that the daily face-to-face meeting behaviors, which are represented by the Bluetooth scanning record, are similar among the members of the same school, while significantly differ between the members across the school. For general community detection, the edge removing method would have promising performance; but for the community detection among the groups which may closely related with each other, the algorithm would end up with cutting the large group into small pieces.
 
