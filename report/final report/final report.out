@@ -2,15 +2,14 @@
 \BOOKMARK [1][-]{section.2}{Related work}{}% 2
 \BOOKMARK [2][-]{subsection.2.1}{Relationship Inference}{section.2}% 3
 \BOOKMARK [2][-]{subsection.2.2}{Community Detection}{section.2}% 4
-\BOOKMARK [1][-]{section.3}{Problem Formulation}{}% 5
-\BOOKMARK [2][-]{subsection.3.1}{Friendship Inference}{section.3}% 6
-\BOOKMARK [2][-]{subsection.3.2}{Community Detection}{section.3}% 7
-\BOOKMARK [2][-]{subsection.3.3}{Relations between Frienship Inference and Community Detection}{section.3}% 8
-\BOOKMARK [1][-]{section.4}{Data and Evaluation Plan}{}% 9
-\BOOKMARK [1][-]{section.5}{Method Demonstration}{}% 10
-\BOOKMARK [2][-]{subsection.5.1}{Relationship Inference}{section.5}% 11
-\BOOKMARK [2][-]{subsection.5.2}{Community Detection}{section.5}% 12
-\BOOKMARK [1][-]{section.6}{Result and Analysis}{}% 13
-\BOOKMARK [2][-]{subsection.6.1}{Relationship Inference}{section.6}% 14
-\BOOKMARK [2][-]{subsection.6.2}{Community Detection}{section.6}% 15
-\BOOKMARK [2][-]{subsection.6.3}{Summary}{section.6}% 16
+\BOOKMARK [1][-]{section.3}{Data}{}% 5
+\BOOKMARK [1][-]{section.4}{Method Demonstration}{}% 6
+\BOOKMARK [2][-]{subsection.4.1}{Friendship Inference}{section.4}% 7
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Problem Formulation}{subsection.4.1}% 8
+\BOOKMARK [2][-]{subsection.4.2}{Community Detection}{section.4}% 9
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Problem Formulation}{subsection.4.2}% 10
+\BOOKMARK [2][-]{subsection.4.3}{Relations between Frienship Inference and Community Detection}{section.4}% 11
+\BOOKMARK [1][-]{section.5}{Result and Analysis}{}% 12
+\BOOKMARK [2][-]{subsection.5.1}{Friendship Inference}{section.5}% 13
+\BOOKMARK [2][-]{subsection.5.2}{Community Detection}{section.5}% 14
+\BOOKMARK [1][-]{section.6}{Summary}{}% 15
