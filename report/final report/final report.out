@@ -8,9 +8,19 @@
 \BOOKMARK [3][-]{subsubsection.4.1.1}{Problem Formulation}{subsection.4.1}% 8
 \BOOKMARK [2][-]{subsection.4.2}{Community Detection}{section.4}% 9
 \BOOKMARK [3][-]{subsubsection.4.2.1}{Problem Formulation}{subsection.4.2}% 10
+<<<<<<< Updated upstream
 \BOOKMARK [3][-]{subsubsection.4.2.2}{Algorithm Demonstration}{subsection.4.2}% 11
 \BOOKMARK [2][-]{subsection.4.3}{Relations between Frienship Inference and Community Detection}{section.4}% 12
 \BOOKMARK [1][-]{section.5}{Result and Analysis}{}% 13
 \BOOKMARK [2][-]{subsection.5.1}{Friendship Inference}{section.5}% 14
 \BOOKMARK [2][-]{subsection.5.2}{Community Detection}{section.5}% 15
 \BOOKMARK [1][-]{section.6}{Summary}{}% 16
+=======
+\BOOKMARK [2][-]{subsection.4.3}{Relations between Frienship Inference and Community Detection}{section.4}% 11
+\BOOKMARK [1][-]{section.5}{Result and Analysis}{}% 12
+\BOOKMARK [2][-]{subsection.5.1}{Friendship Inference}{section.5}% 13
+\BOOKMARK [3][-]{subsubsection.5.1.1}{Feature Selection}{subsection.5.1}% 14
+\BOOKMARK [3][-]{subsubsection.5.1.2}{Comparison between three method}{subsection.5.1}% 15
+\BOOKMARK [2][-]{subsection.5.2}{Community Detection}{section.5}% 16
+\BOOKMARK [1][-]{section.6}{Summary}{}% 17
+>>>>>>> Stashed changes

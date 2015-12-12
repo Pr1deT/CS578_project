@@ -156,8 +156,8 @@ def get_friend_net_svm(data_85):
     testY = data_85[:,data_85.shape[1]-1]
 
     # test feature
-    trainX = train[:,3:train.shape[1]-1]
-    testX = data_85[:,3:train.shape[1]-1]
+    trainX = train[:,2:train.shape[1]-1]
+    testX = data_85[:,2:train.shape[1]-1]
 
     # fit the model
     clf = svm.SVC(kernel='rbf',class_weight={1: 10})
@@ -243,10 +243,10 @@ def main():
     # build friendship network
     data_85 = get_blue_net('../Data/feature_85.csv')
     performance = get_friend_net_svm(data_85)
-
+    print performance
     precision = 1.0 * (performance['true_positive'])/(performance['true_positive']+performance['false_positive'])
     recall = 1.0 * (performance['true_positive'])/(performance['true_positive']+performance['false_negative'])
-    print performance
+
     print 'svm--precision: ', precision, ' recall: ', recall
 
     # hybrid
@@ -255,10 +255,10 @@ def main():
     feature_share = get_blue_net(file_name)
 
     performance = get_friend_net_hybrid(data_85,feature_share)
-
+    print performance
     precision = 1.0 * (performance['true_positive'])/(performance['true_positive']+performance['false_positive'])
     recall = 1.0 * (performance['true_positive'])/(performance['true_positive']+performance['false_negative'])
-    print performance
+
     print 'hybrid--precision: ', precision, ' recall: ', recall
 
 if __name__ == '__main__':
