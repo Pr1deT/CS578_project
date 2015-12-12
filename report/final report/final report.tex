@@ -176,7 +176,7 @@ The non-friend relations is found to be easier to detect since the data contains
 For the approach using topology structure, a precision of $57.90\%$ with a recall of $7.19\%$ was reached. The low rate of recall indicated the poor abilitiy of using only similarities between two nodes. For the approach using only pairwise information, a precision of $66.67\%$ with recall of $32.26\%$ was reached. And for the hybrid approach, a precision of $54.55\%$ with recall of $38.71\%$ was obtained. A higher accuracy was achieved when detecting friend relations using the hybrid approach. This advantage is more obvious when less feature was used. This implication can be furthur tested using a more proper dataset.
 
 \subsection{Community Detection}
-The subject’s affiliation:
+As demonstrated in the dataset instruction, all the participator of this experiment are label with one of following group name. The subject’s affiliation is following:
 \begin{itemize}
 \item 'mlgrad' – Media Lab Graduate Student (not a first year) 
 \item '1styeargrad' – Media Lab First Year Graduate Student 
@@ -186,7 +186,19 @@ The subject’s affiliation:
 \item 'professor' – Media Lab Professor
 \item 'sloan' – Sloan Business School
 \end{itemize}
-Component breaking result:
+
+From the name of the affiliation, we can observe that most of the group are belongs to the Media Lab, while the group of Sloan Business School has the most obvious differences with others. This means that, if the community detection algorithm work correctly, we should firstly break the whole component into two sub-community, while one of the community includes all the member of Media Lab School, the other includes all the membe of Sloan Business School.
+
+For a more advanced expectation on the community detection result, the algorithm should break the Media Lab component into smaller sub-component, while each of the components includes all the members with the same affiliation.
+
+As shown in the algorithm tracing result in \ref{appendix}, in the beginning of the edge removing and component breaking, the algorithm cut the small group from the major component, while each of the new sub-group remained the 100\% purity inside itself. Then, when the original component broke into 5 communities, we saw a clear separation between the most of Media Lab member and all the Sloan Business School member. As the new components remained 100\% purity, this could be valued as a high performance community detection algorithm if we treat all the member of Media Lab as one general community.
+
+After separating all the member of Sloan School, the algorithm continued to cut small sub-group out from the original component, while all the new component remained 100\% purity, but only had less than 3 members. This phenomena can be observed until we got the maximum number of components we set, which is 10 components. This means the Bluetooth behaviors across different sub-group inside Media Lab are almost identical with each other. 
+
+\section{Summary}\label{summary}
+From the result of community detection, we can get the conclusion that the daily face-to-face meeting behaviors, which are represented by the Bluetooth scanning record, are similar among the members of the same school, while significantly differ between the members across the school. For general community detection, the edge removing method would have promising performance; but for the community detection among the groups which may closely related with each other, the algorithm would end up with cutting the large group into small pieces.
+\section{Appendix}\label{appendix}
+The component breaking result is following:
 \begin{itemize}
 \item[*]
 component: 1 edges removed: 0
@@ -248,9 +260,6 @@ total: 1 max 1
 total: 1 max 1
 \{'sloan': 1\}
 \end{itemize}
-\section{Summary}\label{summary}
-
-
 %\nocite{*}
 \bibliographystyle{plainnat}
 %\bibliographystyle{ieeetr}
