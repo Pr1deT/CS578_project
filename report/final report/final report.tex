@@ -136,6 +136,7 @@ After computing all the shortest paths inside the graph and adding the correspon
 For a very simple version of implementation, as computing the shortest path from one vertex to all the other vertices needs \(O(n^2)\) time, a one-time global computing of the ''betweenness'' of each edge requires \(O(n^3)\) time. This means, to complete the whole process of edge removing, we need \(O(n^5)\) computation time.
 
 However, we kept a record for all the shortest path edges between each pair of vertices in this graph. As a result, after removing one edge, we would update only the shortest paths between the pair of vertices that had the removed edge included. This would drop the computation time significantly.  
+
 \subsection{Relations between Frienship Inference and Community Detection}
 Friendship inference and community detection are two directions in the research of exploring social networks. These two directions can be different but also helpful in each other. For example, the level of friendship between individuals can also worked as a feature to predict community labels. (xxx to be finished)
 

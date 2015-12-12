@@ -227,6 +227,9 @@ def main():
     # build friendship network
     thresh = 39
     friend_net = get_friend_net(blue_net,thresh)
+    # save as csv
+    np.savetxt("../Data/friend_net_39.csv", friend_net, delimiter=",")
+
     fr_net_mat = np.asarray(friend_net)
     fr_gt_mat = get_fr_gt_mat(ground_truth)
 
