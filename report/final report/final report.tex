@@ -136,7 +136,6 @@ After computing all the shortest paths inside the graph and adding the correspon
 For a very simple version of implementation, as computing the shortest path from one vertex to all the other vertices needs \(O(n^2)\) time, a one-time global computing of the ''betweenness'' of each edge requires \(O(n^3)\) time. This means, to complete the whole process of edge removing, we need \(O(n^5)\) computation time.
 
 However, we kept a record for all the shortest path edges between each pair of vertices in this graph. As a result, after removing one edge, we would update only the shortest paths between the pair of vertices that had the removed edge included. This would drop the computation time significantly.  
-
 \subsection{Relations between Frienship Inference and Community Detection}
 Friendship inference and community detection are two directions in the research of exploring social networks. These two directions can be different but also helpful in each other. For example, the level of friendship between individuals can also worked as a feature to predict community labels. (xxx to be finished)
 
@@ -144,15 +143,26 @@ Friendship inference and community detection are two directions in the research 
 \subsection{Friendship Inference}
 
 \subsection{Community Detection}
+The subject’s affiliation:
+\begin{itemize}
+\item 'mlgrad' – Media Lab Graduate Student (not a first year) 
+\item '1styeargrad' – Media Lab First Year Graduate Student 
+\item 'mlfrosh' – Media Lab First Year Undergraduate Student 
+\item 'mlstaff' – Media Lab Staff
+\item 'mlurop' – Media Lab Undergraduate
+\item 'professor' – Media Lab Professor
+\item 'sloan' – Sloan Business School
+\end{itemize}
+Component breaking result:
 \begin{itemize}
 \item[*]
-component: 1
+component: 1 edges removed: 0
 
 total: 85 max 30
 \{ 'mlgrad': 30, 'professor': 1, '1styeargrad ': 15,  'sloan': 25, 'mlstaff': 4, 'mlurop': 2, 'grad': 2, 'mlfrosh': 6\}
 
 \item[*]
-component: 2
+component: 2 edges removed: 16
 
 total: 82 max 30
 \{ 'mlgrad': 30, 'professor': 1, '1styeargrad': 15,  'sloan': 25, 'mlstaff': 4, 'mlurop': 2, 'grad': 2, 'mlfrosh': 3\}
@@ -161,7 +171,7 @@ total: 3 max 3
 \{'mlfrosh': 3\}
 
 \item[*]
-component: 3
+component: 3 edges removed: 6
 
 total: 81 max 29
 \{'mlgrad': 29, 'professor': 1, '1styeargrad': 15, 'sloan': 25, 'mlstaff': 4, 'mlurop': 2, 'grad': 2, 'mlfrosh': 3\}
@@ -173,7 +183,7 @@ total: 1 max 1
 \{'mlgrad': 1\}
 
 \item[*]
-component: 4
+component: 4 edges removed: 44
 
 total: 80 max 29
 \{'mlgrad': 29, 'professor': 1, '1styeargrad': 15, 'sloan': 24, 'mlstaff': 4, 'mlurop': 2, 'grad': 2, 'mlfrosh': 3\}
@@ -188,7 +198,7 @@ total: 1 max 1
 \{'sloan': 1\}
 
 \item[*]
-component: 5
+component: 5 edges removed: 68
 
 total: 56 max 29
 \{ 'mlgrad': 29, 'professor': 1, '1styeargrad': 15, 'mlfrosh': 3, 'mlstaff': 4, 'mlurop': 2, 'grad': 2\}

@@ -87,7 +87,7 @@ def evalue(relation,community):
 
 #data initialization
 
-f = open("feature_share.csv")
+f = open("friend_5.csv")
 reader = csv.reader(f, delimiter=',')
 relation = list(reader)
 f.close()
@@ -111,7 +111,7 @@ single2 = set()
 print "after filtering"
 for x in range(len(relation)):
     for y in range(len(relation[0])):
-        if relation[x][y] <= 5:
+        if relation[x][y] <= 0:
             relation[x][y] = 0
         else:
             relation[x][y] = 1

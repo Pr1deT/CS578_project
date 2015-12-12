@@ -165,13 +165,14 @@ print community
 
 #evalue current clustering and break components
 component = 0
-
+edgenum = 0
 while component<10:
     newcomponent = countComponent(relation)
 
     #if new component number, then evaluate new clustering
     if newcomponent != component:
-        print "component:",newcomponent
+        print "component:",newcomponent,"edges removed:",edgenum
+        edgenum = 0
         evalue(relation,community)
         component = newcomponent
 
@@ -201,6 +202,7 @@ while component<10:
 #    print "max edge:",maxkey,":",maxvalue
     x,y = maxkey
     relation[x][y],relation[y][x] = 0,0
+    edgenum += 1
 
 
 
